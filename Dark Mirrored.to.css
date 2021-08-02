@@ -1,0 +1,39 @@
+/* ==UserStyle==
+@name           Dark Mirrored.to
+@namespace      userstyles.world
+@version        1.0.0
+==/UserStyle== */
+body, .header, .container, .infobg {
+    background-color: #030c15;
+}
+footer {
+    background-color: #05111a;
+    border: 0;
+}
+input, textarea {
+    background-color: #0a1926!important;
+    border-color: #137488!important;
+}
+input#submit {
+    color: #137488;
+}
+.container, .infobg, #c-border {
+    border-color: #137488;
+}
+.hdark {
+    color: #137488;
+}
+
+table {
+    border-color: #137488;
+}
+table th {
+    background-color: #202023;
+    color: #137488;
+}
+table td {
+    background-color: #05111a;
+}
+table.hoverable tr:hover > td {
+    background-color: #0a1926;
+}
