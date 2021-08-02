@@ -1,23 +1,31 @@
 /* ==UserStyle==
 @name           Dark Mirrored.to
 @namespace      userstyles.world
-@version        1.0.0
+@version        1.0.1
 ==/UserStyle== */
 body, .header, .container, .infobg {
-    background-color: #030c15;
+    background-color: #050c13;
 }
-footer {
-    background-color: #05111a;
+footer, .card {
+    background-color: #05171a;
     border: 0;
 }
-input, textarea {
+input, textarea, .code_wrap {
     background-color: #0a1926!important;
     border-color: #137488!important;
 }
-input#submit {
+.card.fluid #btn2 {
+    background-color: #005b6d;
+    color: white;
+}
+.card.fluid #btn2:hover, .card.fluid #btn2:active {
+    background-color: #0186a0;
+    color: white;
+}
+input#submit, .code_wrap {
     color: #137488;
 }
-.container, .infobg, #c-border {
+.container, .infobg, #c-border, .code_wrap {
     border-color: #137488;
 }
 .hdark {
@@ -32,7 +40,7 @@ table th {
     color: #137488;
 }
 table td {
-    background-color: #05111a;
+    background-color: #020609;
 }
 table.hoverable tr:hover > td {
     background-color: #0a1926;
