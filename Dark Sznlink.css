@@ -1,0 +1,15 @@
+body, .main-header-bar, article {
+    background-color: #3a3a3a!important;
+    color: #DFDFDF;
+}
+
+body, .site-title a, h1.entry-title, article {
+    color: #DFDFDF;
+}
+
+article a:hover, article a:focus {
+    color: lightblue;
+}
+article a:visited {
+    color: gold;
+}
