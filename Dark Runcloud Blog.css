@@ -1,0 +1,27 @@
+body {
+    background-color: #202030!important;
+}
+
+.page-hero {
+    background: #202030;
+    color: #7990A3 ;
+}
+
+#toc_container, .posts-grid {
+    background: #313e50;
+}
+
+h1, h2, h3, h4, h5, h6, .posts-grid a {
+    color: #c88d06!important;
+}
+
+.search-field {
+    background: #313e50;
+}
+input[type=text], input[type=email], input[type=url], input[type=password], input[type=tel], input[type=range], input[type=date], input[type=month], input[type=week], input[type=time], input[type=datetime], input[type=datetime-local], input[type=color], input[type=number], input[type=search], textarea {
+    border-color: #7990A3;
+}
+
+.site-logo path {
+    fill: #7990A3;
+}
